@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCC28A6F27BBFAE200EE6433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC28A6E27BBFAE200EE6433 /* AppDelegate.swift */; };
+		FCC28A7127BBFAE200EE6433 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC28A7027BBFAE200EE6433 /* SceneDelegate.swift */; };
+		FCC28A7327BBFAE200EE6433 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC28A7227BBFAE200EE6433 /* ViewController.swift */; };
+		FCC28A7627BBFAE200EE6433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC28A7427BBFAE200EE6433 /* Main.storyboard */; };
+		FCC28A7927BBFAE200EE6433 /* Person_Salary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCC28A7727BBFAE200EE6433 /* Person_Salary.xcdatamodeld */; };
+		FCC28A7B27BBFAE300EE6433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC28A7A27BBFAE300EE6433 /* Assets.xcassets */; };
+		FCC28A7E27BBFAE300EE6433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC28A7C27BBFAE300EE6433 /* LaunchScreen.storyboard */; };
+		FCC28A8927BBFAE300EE6433 /* Person_SalaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC28A8827BBFAE300EE6433 /* Person_SalaryTests.swift */; };
+		FCC28A9427BBFAE300EE6433 /* Person_SalaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC28A9327BBFAE300EE6433 /* Person_SalaryUITests.swift */; };
+		FCC28AA527BBFDCE00EE6433 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC28AA427BBFDCE00EE6433 /* Person.swift */; };
+		FCC28AAA27BBFDE100EE6433 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC28AA927BBFDE100EE6433 /* Manager.swift */; };
+		FCC28AAF27BBFDF200EE6433 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC28AAE27BBFDF200EE6433 /* Employee.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCC28A8527BBFAE300EE6433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCC28A6327BBFAE200EE6433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC28A6A27BBFAE200EE6433;
+			remoteInfo = "Person Salary";
+		};
+		FCC28A9027BBFAE300EE6433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCC28A6327BBFAE200EE6433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC28A6A27BBFAE200EE6433;
+			remoteInfo = "Person Salary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCC28A6B27BBFAE200EE6433 /* Person Salary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Person Salary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC28A6E27BBFAE200EE6433 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCC28A7027BBFAE200EE6433 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FCC28A7227BBFAE200EE6433 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCC28A7527BBFAE200EE6433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCC28A7827BBFAE200EE6433 /* Person_Salary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Person_Salary.xcdatamodel; sourceTree = "<group>"; };
+		FCC28A7A27BBFAE300EE6433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCC28A7D27BBFAE300EE6433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCC28A7F27BBFAE300EE6433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC28A8427BBFAE300EE6433 /* Person SalaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Person SalaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC28A8827BBFAE300EE6433 /* Person_SalaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person_SalaryTests.swift; sourceTree = "<group>"; };
+		FCC28A8A27BBFAE300EE6433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC28A8F27BBFAE300EE6433 /* Person SalaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Person SalaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC28A9327BBFAE300EE6433 /* Person_SalaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person_SalaryUITests.swift; sourceTree = "<group>"; };
+		FCC28A9527BBFAE300EE6433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC28AA427BBFDCE00EE6433 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		FCC28AA927BBFDE100EE6433 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		FCC28AAE27BBFDF200EE6433 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCC28A6827BBFAE200EE6433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC28A8127BBFAE300EE6433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC28A8C27BBFAE300EE6433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCC28A6227BBFAE200EE6433 = {
+			isa = PBXGroup;
+			children = (
+				FCC28A6D27BBFAE200EE6433 /* Person Salary */,
+				FCC28A8727BBFAE300EE6433 /* Person SalaryTests */,
+				FCC28A9227BBFAE300EE6433 /* Person SalaryUITests */,
+				FCC28A6C27BBFAE200EE6433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCC28A6C27BBFAE200EE6433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCC28A6B27BBFAE200EE6433 /* Person Salary.app */,
+				FCC28A8427BBFAE300EE6433 /* Person SalaryTests.xctest */,
+				FCC28A8F27BBFAE300EE6433 /* Person SalaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCC28A6D27BBFAE200EE6433 /* Person Salary */ = {
+			isa = PBXGroup;
+			children = (
+				FCC28A6E27BBFAE200EE6433 /* AppDelegate.swift */,
+				FCC28A7027BBFAE200EE6433 /* SceneDelegate.swift */,
+				FCC28A7227BBFAE200EE6433 /* ViewController.swift */,
+				FCC28AA427BBFDCE00EE6433 /* Person.swift */,
+				FCC28AA927BBFDE100EE6433 /* Manager.swift */,
+				FCC28AAE27BBFDF200EE6433 /* Employee.swift */,
+				FCC28A7427BBFAE200EE6433 /* Main.storyboard */,
+				FCC28A7A27BBFAE300EE6433 /* Assets.xcassets */,
+				FCC28A7C27BBFAE300EE6433 /* LaunchScreen.storyboard */,
+				FCC28A7F27BBFAE300EE6433 /* Info.plist */,
+				FCC28A7727BBFAE200EE6433 /* Person_Salary.xcdatamodeld */,
+			);
+			path = "Person Salary";
+			sourceTree = "<group>";
+		};
+		FCC28A8727BBFAE300EE6433 /* Person SalaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCC28A8827BBFAE300EE6433 /* Person_SalaryTests.swift */,
+				FCC28A8A27BBFAE300EE6433 /* Info.plist */,
+			);
+			path = "Person SalaryTests";
+			sourceTree = "<group>";
+		};
+		FCC28A9227BBFAE300EE6433 /* Person SalaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCC28A9327BBFAE300EE6433 /* Person_SalaryUITests.swift */,
+				FCC28A9527BBFAE300EE6433 /* Info.plist */,
+			);
+			path = "Person SalaryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCC28A6A27BBFAE200EE6433 /* Person Salary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC28A9827BBFAE300EE6433 /* Build configuration list for PBXNativeTarget "Person Salary" */;
+			buildPhases = (
+				FCC28A6727BBFAE200EE6433 /* Sources */,
+				FCC28A6827BBFAE200EE6433 /* Frameworks */,
+				FCC28A6927BBFAE200EE6433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Person Salary";
+			productName = "Person Salary";
+			productReference = FCC28A6B27BBFAE200EE6433 /* Person Salary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCC28A8327BBFAE300EE6433 /* Person SalaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC28A9B27BBFAE300EE6433 /* Build configuration list for PBXNativeTarget "Person SalaryTests" */;
+			buildPhases = (
+				FCC28A8027BBFAE300EE6433 /* Sources */,
+				FCC28A8127BBFAE300EE6433 /* Frameworks */,
+				FCC28A8227BBFAE300EE6433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCC28A8627BBFAE300EE6433 /* PBXTargetDependency */,
+			);
+			name = "Person SalaryTests";
+			productName = "Person SalaryTests";
+			productReference = FCC28A8427BBFAE300EE6433 /* Person SalaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCC28A8E27BBFAE300EE6433 /* Person SalaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC28A9E27BBFAE300EE6433 /* Build configuration list for PBXNativeTarget "Person SalaryUITests" */;
+			buildPhases = (
+				FCC28A8B27BBFAE300EE6433 /* Sources */,
+				FCC28A8C27BBFAE300EE6433 /* Frameworks */,
+				FCC28A8D27BBFAE300EE6433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCC28A9127BBFAE300EE6433 /* PBXTargetDependency */,
+			);
+			name = "Person SalaryUITests";
+			productName = "Person SalaryUITests";
+			productReference = FCC28A8F27BBFAE300EE6433 /* Person SalaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCC28A6327BBFAE200EE6433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FCC28A6A27BBFAE200EE6433 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FCC28A8327BBFAE300EE6433 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FCC28A6A27BBFAE200EE6433;
+					};
+					FCC28A8E27BBFAE300EE6433 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FCC28A6A27BBFAE200EE6433;
+					};
+				};
+			};
+			buildConfigurationList = FCC28A6627BBFAE200EE6433 /* Build configuration list for PBXProject "Person Salary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCC28A6227BBFAE200EE6433;
+			productRefGroup = FCC28A6C27BBFAE200EE6433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCC28A6A27BBFAE200EE6433 /* Person Salary */,
+				FCC28A8327BBFAE300EE6433 /* Person SalaryTests */,
+				FCC28A8E27BBFAE300EE6433 /* Person SalaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCC28A6927BBFAE200EE6433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC28A7E27BBFAE300EE6433 /* LaunchScreen.storyboard in Resources */,
+				FCC28A7B27BBFAE300EE6433 /* Assets.xcassets in Resources */,
+				FCC28A7627BBFAE200EE6433 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC28A8227BBFAE300EE6433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC28A8D27BBFAE300EE6433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCC28A6727BBFAE200EE6433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC28AA527BBFDCE00EE6433 /* Person.swift in Sources */,
+				FCC28AAA27BBFDE100EE6433 /* Manager.swift in Sources */,
+				FCC28A7927BBFAE200EE6433 /* Person_Salary.xcdatamodeld in Sources */,
+				FCC28AAF27BBFDF200EE6433 /* Employee.swift in Sources */,
+				FCC28A7327BBFAE200EE6433 /* ViewController.swift in Sources */,
+				FCC28A6F27BBFAE200EE6433 /* AppDelegate.swift in Sources */,
+				FCC28A7127BBFAE200EE6433 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC28A8027BBFAE300EE6433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC28A8927BBFAE300EE6433 /* Person_SalaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC28A8B27BBFAE300EE6433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC28A9427BBFAE300EE6433 /* Person_SalaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCC28A8627BBFAE300EE6433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCC28A6A27BBFAE200EE6433 /* Person Salary */;
+			targetProxy = FCC28A8527BBFAE300EE6433 /* PBXContainerItemProxy */;
+		};
+		FCC28A9127BBFAE300EE6433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCC28A6A27BBFAE200EE6433 /* Person Salary */;
+			targetProxy = FCC28A9027BBFAE300EE6433 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCC28A7427BBFAE200EE6433 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC28A7527BBFAE200EE6433 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCC28A7C27BBFAE300EE6433 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC28A7D27BBFAE300EE6433 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCC28A9627BBFAE300EE6433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCC28A9727BBFAE300EE6433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCC28A9927BBFAE300EE6433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Person Salary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Donia.Person-Salary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCC28A9A27BBFAE300EE6433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Person Salary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Donia.Person-Salary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCC28A9C27BBFAE300EE6433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Person SalaryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Donia.Person-SalaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Person Salary.app/Person Salary";
+			};
+			name = Debug;
+		};
+		FCC28A9D27BBFAE300EE6433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Person SalaryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Donia.Person-SalaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Person Salary.app/Person Salary";
+			};
+			name = Release;
+		};
+		FCC28A9F27BBFAE300EE6433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Person SalaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Donia.Person-SalaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Person Salary";
+			};
+			name = Debug;
+		};
+		FCC28AA027BBFAE300EE6433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Person SalaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Donia.Person-SalaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Person Salary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCC28A6627BBFAE200EE6433 /* Build configuration list for PBXProject "Person Salary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC28A9627BBFAE300EE6433 /* Debug */,
+				FCC28A9727BBFAE300EE6433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC28A9827BBFAE300EE6433 /* Build configuration list for PBXNativeTarget "Person Salary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC28A9927BBFAE300EE6433 /* Debug */,
+				FCC28A9A27BBFAE300EE6433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC28A9B27BBFAE300EE6433 /* Build configuration list for PBXNativeTarget "Person SalaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC28A9C27BBFAE300EE6433 /* Debug */,
+				FCC28A9D27BBFAE300EE6433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC28A9E27BBFAE300EE6433 /* Build configuration list for PBXNativeTarget "Person SalaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC28A9F27BBFAE300EE6433 /* Debug */,
+				FCC28AA027BBFAE300EE6433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FCC28A7727BBFAE200EE6433 /* Person_Salary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FCC28A7827BBFAE200EE6433 /* Person_Salary.xcdatamodel */,
+			);
+			currentVersion = FCC28A7827BBFAE200EE6433 /* Person_Salary.xcdatamodel */;
+			path = Person_Salary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FCC28A6327BBFAE200EE6433 /* Project object */;
+}
